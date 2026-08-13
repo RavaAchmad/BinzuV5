@@ -117,7 +117,7 @@ export default {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363406567158177@newsletter',
-                    newsletterName: 'GlobalTechInc',
+                    newsletterName: 'RavionLab',
                     serverMessageId: -1
                 }
             };

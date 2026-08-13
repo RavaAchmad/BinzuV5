@@ -293,7 +293,7 @@ async function startQasimDev() {
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
                                     newsletterJid: '120363406567158177@newsletter',
-                                    newsletterName: 'GlobalTechInc',
+                                    newsletterName: 'RavionLab',
                                     serverMessageId: -1
                                 }
                             }
@@ -448,7 +448,7 @@ async function startQasimDev() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363406567158177@newsletter',
-                                newsletterName: 'GlobalTechInc',
+                                newsletterName: 'RavionLab',
                                 serverMessageId: -1
                             }
                         }
