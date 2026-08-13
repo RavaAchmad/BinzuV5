@@ -6,7 +6,7 @@ import FormData from "form-data";
 
 export default {
     command: 'tiktok',
-    aliases: ['tt', 'ttdl', 'tiktokdl', 'ttv', 'tta'],
+    aliases: ['tt', 'ttdl', 'tiktokdl'],
     category: 'download',
     description: 'Download TikTok video without watermark',
     usage: '.tiktok <URL>',
