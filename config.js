@@ -5,8 +5,8 @@ const config = {
     botName: process.env.BOT_NAME || 'Binzu',
     botOwner: process.env.BOT_OWNER || 'Ravion Lab',
     ownerNumber: process.env.OWNER_NUMBER || '6281212035575',
-    author: process.env.AUTHOR || 'GlobalTechInfo',
-    packname: process.env.PACKNAME || 'MEGA-MD',
+    author: process.env.AUTHOR || 'User',
+    packname: process.env.PACKNAME || 'BINZU',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
     version: '1.0.0',
     // Bot Config
@@ -15,7 +15,7 @@ const config = {
     commandMode: process.env.COMMAND_MODE || 'public',
     timeZone: process.env.TIMEZONE || 'Asia/Karachi',
     // Links
-    channelLink: process.env.CHANNEL_LINK || 'https://chat.whatsapp.com/HsOsiDUBPbTHsCU7SYv3kw',
+    channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbC5G6NJJhzVDpyYG20N',
     updateZipUrl: process.env.UPDATE_URL || 'https://github.com/GlobalTechInfo/MEGA-MD/archive/refs/heads/main.zip',
     ytChannel: process.env.YT_CHANNEL || '',
     // Session

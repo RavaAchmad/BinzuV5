@@ -15,7 +15,7 @@ export default {
         }
         try {
             const mp4Buffer = await renderBlinkingVideoWithFfmpeg(text);
-            const webpPath = await writeExifVid(mp4Buffer, { packname: 'Mega Md', author: 'MEGA-MD' });
+            const webpPath = await writeExifVid(mp4Buffer, { packname: 'BINZU V5', author: 'MEGA-MD' });
             const webpBuffer = fs.readFileSync(webpPath);
             try {
                 fs.unlinkSync(webpPath);

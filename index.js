@@ -516,7 +516,7 @@ async function startQasimDev() {
 async function main() {
     await compileAll();
     await commandHandler.loadCommands();
-    printLog('info', 'Starting MEGA MD BOT...');
+    printLog('info', 'Starting BINZU V5 BOT...');
     await initializeSession();
     await delay(3000);
     startQasimDev().catch((error) => {

@@ -20,7 +20,7 @@ export default {
             contextInfo: {
                 externalAdReply: {
                     title,
-                    body: 'Shared via Mega Md',
+                    body: 'Shared via BINZU V5',
                     thumbnailUrl: url || 'https://i.ibb.co/3S6f0mS/default.jpg',
                     mediaType: 1,
                     renderLargerThumbnail: true,

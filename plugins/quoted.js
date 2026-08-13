@@ -62,7 +62,7 @@ export default {
             const bufferImage = Buffer.from(res.data.result.image, 'base64');
             try {
                 const stickerBuffer = await new Sticker(bufferImage, {
-                    pack: 'MEGA-MD',
+                    pack: 'BINZU',
                     author: userName,
                     type: StickerTypes.FULL,
                     categories: ['🤩', '🎉'],

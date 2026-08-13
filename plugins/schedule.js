@@ -113,7 +113,7 @@ export function startSchedulerEngine(sock) {
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
                                     newsletterJid: '120363319098372999@newsletter',
-                                    newsletterName: 'MEGA MD',
+                                    newsletterName: 'BINZU V5',
                                     serverMessageId: -1
                                 }
                             }
