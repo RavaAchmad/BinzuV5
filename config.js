@@ -8,16 +8,16 @@ const config = {
     author: process.env.AUTHOR || 'GlobalTechInfo',
     packname: process.env.PACKNAME || 'MEGA-MD',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
-    version: '6.0.0',
+    version: '1.0.0',
     // Bot Config
     prefixes: _prefixes,
     prefix: _prefixes[0],
     commandMode: process.env.COMMAND_MODE || 'public',
     timeZone: process.env.TIMEZONE || 'Asia/Karachi',
     // Links
-    channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
+    channelLink: process.env.CHANNEL_LINK || 'https://chat.whatsapp.com/HsOsiDUBPbTHsCU7SYv3kw',
     updateZipUrl: process.env.UPDATE_URL || 'https://github.com/GlobalTechInfo/MEGA-MD/archive/refs/heads/main.zip',
-    ytChannel: process.env.YT_CHANNEL || 'GlobalTechInfo',
+    ytChannel: process.env.YT_CHANNEL || '',
     // Session
     sessionId: process.env.SESSION_ID || '',
     pairingNumber: process.env.PAIRING_NUMBER || '',
