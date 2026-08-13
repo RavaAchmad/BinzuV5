@@ -35,7 +35,7 @@ export default {
             fs.writeFileSync(grayFile, res.data);
             await sock.sendMessage(chatId, {
                 image: { url: grayFile },
-                caption: `🤍 *Inverted Image*\n\nProcessed by: MEGA-MD`
+                caption: `🤍 *Inverted Image*\n\nProcessed by: BINZU-MD`
             }, { quoted: message });
             fs.unlinkSync(grayFile);
         }

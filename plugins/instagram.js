@@ -54,13 +54,13 @@ export default {
                     await sock.sendMessage(chatId, {
                         video: { url },
                         mimetype: 'video/mp4',
-                        caption: '📥 *Downloaded by MEGA-MD*'
+                        caption: '📥 *Downloaded by BINZU-MD*'
                     }, { quoted: message });
                 }
                 else {
                     await sock.sendMessage(chatId, {
                         image: { url },
-                        caption: '📥 *Downloaded by MEGA-MD*'
+                        caption: '📥 *Downloaded by BINZU-MD*'
                     }, { quoted: message });
                 }
                 if (i < mediaList.length - 1) {

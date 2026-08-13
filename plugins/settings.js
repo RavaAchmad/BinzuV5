@@ -41,7 +41,7 @@ export default {
                 cmdReactEnabled = true;
             }
             const getSt = (val) => val ? '✅' : '❌';
-            let menuText = `╭━〔 *MEGA CONFIG* 〕━┈\n┃\n`;
+            let menuText = `╭━〔 *BINZU CONFIG* 〕━┈\n┃\n`;
             menuText += `┃ 👤 *User:* @${cleanJid(senderId)}\n`;
             menuText += `┃ 🤖 *Mode:* ${botMode.toUpperCase()}\n`;
             menuText += `┃\n┣━〔 *GLOBAL CONFIG* 〕━┈\n`;

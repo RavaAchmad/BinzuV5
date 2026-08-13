@@ -18,7 +18,7 @@ export default {
                 }, { quoted: message });
                 return;
             }
-            const packname = args.join(' ') || 'MEGA AI';
+            const packname = args.join(' ') || 'BINZU AI';
             try {
                 const stickerBuffer = await downloadMediaMessage({
                     key: message.message.extendedTextMessage.contextInfo.stanzaId,
