@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 import axios from 'axios';
-import * as cheerio from 'cheerio';
+import cheerio from 'cheerio';
 import moment from 'moment-timezone';
 import FormData from "form-data";
 
