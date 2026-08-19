@@ -27,7 +27,7 @@ export default {
         const isBotAdmin = context.isBotAdmin;
         const rawText = context.rawText || '';
         const messageText = rawText.slice(8).trim();
-        if (!isBotAdmin) {
+        if (!isBotAdmin && !context.senderIsOwnerOrSudo) {
             await sock.sendMessage(chatId, {
                 text: '❌ *Please make the bot an admin first*'
             }, { quoted: message });

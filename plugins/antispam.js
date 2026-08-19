@@ -268,8 +268,8 @@ export default {
         if (action === 'on' || action === 'enable') {
             if (groupConfig.enabled)
                 return await sock.sendMessage(chatId, { text: '⚠️ Anti-spam already enabled.', ...channelInfo }, { quoted: message });
-            if (!isBotAdmin && groupConfig.action !== 'warn') {
-                await sock.sendMessage(chatId, { text: `⚠️ Bot is not admin — kick/mute won't work until bot is made admin.`, ...channelInfo }, { quoted: message });
+            if (!isBotAdmin && groupConfig.action !== 'warn' && !context.senderIsOwnerOrSudo) {
+                await sock.sendMessage(chatId, { text: `⚠️ Action set to *${newAction.toUpperCase()}* but bot needs admin rights to execute it.`, ...channelInfo }, { quoted: message });
             }
             groupConfig.enabled = true;
             await saveConfig(config);

@@ -10,7 +10,7 @@ export default {
         const chatId = context.chatId || message.key.remoteJid;
         const channelInfo = context.channelInfo || {};
         const isBotAdmin = context.isBotAdmin || false;
-        if (!isBotAdmin) {
+        if (!isBotAdmin && !context.senderIsOwnerOrSudo) {
             return await sock.sendMessage(chatId, {
                 text: `❌ Bot needs to be an admin to change group settings.`,
                 ...channelInfo

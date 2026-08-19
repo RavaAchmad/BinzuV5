@@ -9,7 +9,7 @@ export default {
     async handler(sock, message, args, context) {
         const chatId = context.chatId || message.key.remoteJid;
         const isBotAdmin = context.isBotAdmin;
-        if (!isBotAdmin) {
+        if (!isBotAdmin && !context.senderIsOwnerOrSudo) {
             await sock.sendMessage(chatId, {
                 text: '❌ *Please make the bot an admin first*'
             }, { quoted: message });

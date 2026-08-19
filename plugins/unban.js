@@ -39,7 +39,7 @@ export default {
     async handler(sock, message, args, context) {
         const { chatId, isGroup, channelInfo, senderIsOwnerOrSudo, isSenderAdmin, isBotAdmin } = context;
         if (isGroup) {
-            if (!isBotAdmin) {
+            if (!isBotAdmin && !senderIsOwnerOrSudo) {
                 await sock.sendMessage(chatId, {
                     text: 'Please make the bot an admin to use .unban',
                     ...channelInfo

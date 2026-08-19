@@ -11,7 +11,7 @@ export default {
         const chatId = context.chatId || message.key.remoteJid;
         const _senderId = context.senderId || message.key.participant || message.key.remoteJid;
         const isBotAdmin = context.isBotAdmin;
-        if (!isBotAdmin) {
+        if (!isBotAdmin && !context.senderIsOwnerOrSudo) {
             await sock.sendMessage(chatId, {
                 text: '❌ *I need to be an admin to delete messages*'
             }, { quoted: message });
