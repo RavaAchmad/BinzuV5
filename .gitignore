@@ -52,3 +52,4 @@ coverage/
 
 # Compiled C++ binaries (platform-specific, compiled on first run)
 lib/bin/
+memory.MD
